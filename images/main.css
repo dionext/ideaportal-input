@@ -1,19 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-
-
-/*
-    background: url(../images/mod.gif)#F2EEEC repeat-x top left;
-    color: #A08681;
-    line-height: 22px;
-    border: 1px solid  #680000;
-*/
-
-/* for search drop down */
-.ui-autocomplete {
-    background-color: inherit;
-}
-
-/* for href */
+﻿/* for href */
 a {
 	color: #A08681 !important;
     text-decoration: none !important;
@@ -22,40 +7,44 @@ a:hover {
     text-decoration: underline !important;
 }
 
+/* blockquote style */
+.blockquote {
+	font-size: 1rem;
+}
+
+/* for search drop down */
+.ui-autocomplete {
+    background-color: inherit;
+}
 
 /* for top banner */
-	.page-header h1 {
-		margin-top: 10px;
-		margin-left: 80px;
-		font-style: italic;
-		color: #f3ddcf; 
-	}
-	.page-header {
-		/*background-size: cover ;*/
-		background-repeat: no-repeat;
-		height: 80px;
-		width: 100%;
-		background-image: url(../images/main_banner.jpg);
-	}
+.page-header h1 {
+	margin-top: 10px;
+	margin-left: 80px;
+	font-style: italic;
+	color: #f3ddcf; 
+}
+.page-header {
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 100%;
+	background-image: url(../images/main_banner.jpg);
+}
 
 .active.page-link, .page-link.active {
     background-color: #ebdcd8;
 }
-	
-	
-
 
 /* for lang selector */
-
 .flag-icon-background{background-size:contain;background-position:50%;background-repeat:no-repeat}.flag-icon{background-size:contain;background-position:50%;background-repeat:no-repeat;position:relative;display:inline-block;width:1.33333333em;line-height:1em}.flag-icon:before{content:"\00a0"}.flag-icon.flag-icon-squared{width:1em}
-	 .flag-icon-ru{
-		background-image:url(../images/ru.svg)
-	  }
-	   .flag-icon-gb{
-		background-image:url(../images/gb.svg)
-	  }
+.flag-icon-ru{
+	background-image:url(../images/ru.svg)
+}
+.flag-icon-gb{
+	background-image:url(../images/gb.svg)
+}
+
 /* for external links */
-	  
 .external {
     background-position: center right;
     background-repeat: no-repeat;
@@ -64,79 +53,20 @@ a:hover {
     padding-right: 13px;
 }
 
-/* blockquote style  font-style:italic; font-size: 1.4em; line-height:1.6; color: #777777; */
-blockquote{
-  
-  width:90%;
-  margin:20px auto;
-  font-family:Open Sans;
-  
-  padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid #663300 ;
-  
-  position: relative;
-  background:#F8F8F8;
-}
-
-blockquote::before{
-  font-family:Arial;
-  content: "\201C";
-  color:#663300;
-  font-size:3em;
-  position: absolute;
-  left: 10px;
-  top:-10px;
-}
-
-blockquote::after{
-  content: '';
-}
-blockquote footer{
-  display:block;
-  color:#333333;
-  font-style: normal;
-  font-weight: bold;
-  margin-top:1em;
-}
-blockquote span{
-  display:block;
-  color:#333333;
-  font-style: normal;
-  font-weight: bold;
-  margin-top:1em;
-}
-
-/* change the background color */
+/* navbar */
 .navbar-custom {
     background-color: #ff5500;
 }
-/* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(255,255,255,.8);
 }
-/* change the link color */
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
-/* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
 }
 
-
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-.map-container iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
